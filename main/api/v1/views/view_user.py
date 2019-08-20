@@ -57,7 +57,7 @@ class UserList(APIView):
 
             self.obj["result"] = requests.post(request.build_absolute_uri(reverse('v1:user_save')), json=list_users_save).json()
 
-        return Response(self.obj["result"])
+        return Response(self.obj)
 
 
 class UserRetrieveAPIView(APIView):
