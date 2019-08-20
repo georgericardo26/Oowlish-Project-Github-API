@@ -13,10 +13,8 @@ django-multiselectfield
 gunicorn
 django-cors-headers
 pyzbar
-pyqrcode
 pypng
 django-resized
-django-cities-light
 drf-yasg
 packaging
 django-push-notifications

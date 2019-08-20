@@ -45,6 +45,7 @@ INSTALLED_APPS = [
     'multiselectfield',
     'corsheaders',
     'drf_yasg',
+    'main',
 ]
 
 MIDDLEWARE = [
@@ -124,8 +125,8 @@ STATIC_URL = '/static/'
 
 MEDIA_URL = '/media/'
 MEDIA_ROOT = os.path.join(BASE_DIR, "media")
-
-AUTH_USER_MODEL = 'main.User'
+#
+# AUTH_USER_MODEL = 'main.User'
 
 REST_FRAMEWORK = {
     'DEFAULT_FILTER_BACKENDS': ('django_filters.rest_framework.DjangoFilterBackend',),
